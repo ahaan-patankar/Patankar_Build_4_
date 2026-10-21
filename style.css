@@ -4,17 +4,17 @@
 body {
     display:grid;
     grid-template-columns:1fr;
-    background-color:yellow;
+    background-color:green;
 }
 @media screen and (min-width:600px){
     body {
     grid-template-columns:1fr 1fr;
-    background-color:pink;
+    background-color:yellow;
 }
 }
 @media screen and (min-width:800px){
     body {
     grid-template-columns:1fr 1fr 1fr;
-    background-color:green;
+    background-color:pink;
     }
 }
