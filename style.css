@@ -1,0 +1,20 @@
+/* CSS Written by Ahaan Patankar*/
+
+/* GLOBAL STYLES (MOBILE FIRST) */
+body {
+    display:grid;
+    grid-template-columns:1fr;
+    background-color:yellow;
+}
+@media screen and (min-width:600px){
+    body {
+    grid-template-columns:1fr 1fr;
+    background-color:pink;
+}
+}
+@media screen and (min-width:800px){
+    body {
+    grid-template-columns:1fr 1fr 1fr;
+    background-color:green;
+    }
+}
